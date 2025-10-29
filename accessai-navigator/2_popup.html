@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccessAI Navigator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌐 AccessAI Navigator</h1>
+            <p class="tagline">AI-Powered Accessibility Companion</p>
+        </div>
+
+        <div class="profiles">
+            <h2>Choose Your Profile</h2>
+            <div class="profile-grid">
+                <button class="profile-btn" data-profile="visual">
+                    <span class="icon">👁️</span>
+                    <span class="name">Visual</span>
+                </button>
+                <button class="profile-btn" data-profile="cognitive">
+                    <span class="icon">🧠</span>
+                    <span class="name">Cognitive</span>
+                </button>
+                <button class="profile-btn" data-profile="motor">
+                    <span class="icon">✋</span>
+                    <span class="name">Motor</span>
+                </button>
+                <button class="profile-btn" data-profile="language">
+                    <span class="icon">🌐</span>
+                    <span class="name">Language</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="features">
+            <h2>Quick Actions</h2>
+            <button class="action-btn" id="describe-images">
+                <span class="icon">📷</span>
+                Describe Images
+            </button>
+            <button class="action-btn" id="simplify-content">
+                <span class="icon">📝</span>
+                Simplify Content
+            </button>
+            <button class="action-btn" id="voice-nav">
+                <span class="icon">🎤</span>
+                Voice Navigation
+            </button>
+            <button class="action-btn" id="translate">
+                <span class="icon">🌍</span>
+                Translate Page
+            </button>
+        </div>
+
+        <div class="status">
+            <div class="status-item">
+                <span class="label">Privacy:</span>
+                <span class="value">🔒 100% Local</span>
+            </div>
+            <div class="status-item">
+                <span class="label">Status:</span>
+                <span class="value online">✓ Ready</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <button class="settings-btn" id="settings">⚙️ Settings</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
